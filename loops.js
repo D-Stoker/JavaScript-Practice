@@ -1,15 +1,3 @@
-// DESTRUCTURING PRACTICE
-
-// Array destructuring
-const arr = [1, 2, 3];
-const [a, b, c] = arr;
-console.log(a, b, c); // 1, 2, 3
-
-// Object destructuring
-const obj = { name: 'John', age: 30 };
-const { name, age } = obj;
-console.log(name, age); // John, 30
-
 // LOOPS PRACTICE
 
 // For Loop: Count from 1 to 5
@@ -31,3 +19,18 @@ do {
     num++;
 } while (num < 3);
 
+// Loop continue statement: printing even numbers from 0 to 20
+for (let i = 2; i <= 20; i++) {
+    if (i % 2 !== 0) {
+        continue;
+    }
+    console.log(i);
+}
+
+// Loop break statement: Count 10 to 1, stopping at 3
+for (let i = 10; i >= 1; i--) {
+    if (i === 3) {
+        break;
+    }
+    console.log(i);
+}
