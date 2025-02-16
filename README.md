@@ -21,8 +21,15 @@ JavaScript practice repository for learning and experiementation. Includes exerc
 - **Infinite loops**: loops that run indefinitely due to a missing exit condition; useful in some cases but usually an error.  
 
 ### Operators
-- **Currently using:** Arithmetic operators (`+`, `-`, `*`, `/`, `%`, `**`), Assignment operators (`=`, `+=`, `-=`, etc.), Comparison operators (`==`, `===`, `!=`, `!==`, etc.), Logical operators (`&&`, `||`, `!`).
-- **Future use:** Increment & decrement (`++`, `--`), Other advanced operators as needed.
+- **Currently using:**
+  - Arithmetic operators (`+`, `-`, `*`, `/`, `**`): standard operations.
+  - Modulus `%` (special case): returns remainder of a division.
+  - Assignment operators (`=`, `+=`, `-=`, etc.)
+  - Comparison operators (`==`, `===`, `!=`, `!==`, etc.)
+  - Logical operators (`&&`, `||`, `!`)
+- **Future use:**
+  - Increment & decrement (`++`, `--`)
+  - Other advanced operators as needed.
 
 ### Advanced JavaScript Concepts
 - Destructuring (object & array destructuring): introduced but not fully explored; will revisit as more practice is done.

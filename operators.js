@@ -1,3 +1,12 @@
+// Arithmetic Operators
+let num = 10;
+console.log(num + 5);   // 15 (addition)
+console.log(num - 2);   // 8 (subtraction)
+console.log(num * 3);   // 30 (multiplication)
+console.log(num / 2);   // 5 (division)
+console.log(num ** 2);  // 100 (exponentiation, 10 squared)
+console.log(num % 3);   // 1 (modulus, remainder of division: special case)
+
 // Assignment Operators
 let x = 10;  // basic assignment
 x += 5;      // x = x + 5
@@ -17,11 +26,3 @@ console.log(a && b);  // false (AND: both must be true)
 console.log(a || b);  // true (OR: at least one must be true)
 console.log(!a);      // false (NOT: reverses its truth value)
 
-// Arithmetic Operators
-let num = 10;
-console.log(num + 5);   // 15 (addition)
-console.log(num - 2);   // 8 (subtraction)
-console.log(num * 3);   // 30 (multiplication)
-console.log(num / 2);   // 5 (division)
-console.log(num % 3);   // 1 (modulus, remainder of division)
-console.log(num ** 2);  // 100 (exponentiation, 10 squared)
