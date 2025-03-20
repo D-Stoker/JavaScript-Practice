@@ -1,36 +1,77 @@
 # JavaScript-Practice
-JavaScript practice repository for learning and experiementation. Includes exercises, challenges, and notes.
+JavaScript practice repository for learning and experiementation. Includes exercises, challenges, and notes. Covered topics include variables, arrays & objects, loops, operators, functions, advanced JavaScript, and APIs.
 
-### Key Concepts Learned
-- Variables
-- Loops
-- Operators
+## Key Concepts Covered
 
-## JavaScript Practice Snippets
+### 🟢 Variables
+- Declarations: `let`, `const`, `var`
+- Scope: Block-level (`let`, `const`) vs. function-level (`var`)
+- Data Types: Strings, numbers, booleans, arrays, objects
 
-### Variables
-- Declarations: using `let`, `const`, and `var` to declare variables.
-- Scope: understanding the difference between block-level and function-level scope
-- Data Types: working with strings, numbers, booleans, arrays, and objects.
+### 🔢 Arrays & Objects
+**Arrays**
+- Creating & modifying arrays
+- Array methods: `push()`, `pop()`, `shift()`, `unshift()`
+- Iterating over arrays using loops
+- **Higher-order array methods:**
+  - `map()` – transform array values
+  - `filter()` – return a subset based on a condition
+  - `reduce()` – accumulate values into a single result
 
-### Loops
-- Loop declarations (`for`, `while`, `do... while`)
-- `break` statement: terminates loop, exiting when condition is met.
-- `continue` statement: skip current loop iteration, moving to next one.
-- **Nested loops**: a loop inside another loop, commonly used for working with grids, tables, or patterns.  
-- **Infinite loops**: loops that run indefinitely due to a missing exit condition; useful in some cases but usually an error.  
+**Objects**
+- Creating objects & accessing properties
+- Adding, modifying, and deleting properties
+- Looping through objects (`for...in`)
 
-### Operators
-- **Currently using:**
-  - Arithmetic operators (`+`, `-`, `*`, `/`, `**`): standard operations.
-  - Modulus `%` (special case): returns remainder of a division.
-  - Assignment operators (`=`, `+=`, `-=`, etc.)
-  - Comparison operators (`==`, `===`, `!=`, `!==`, etc.)
-  - Logical operators (`&&`, `||`, `!`)
-- **Future use:**
-  - Increment & decrement (`++`, `--`)
-  - Other advanced operators as needed.
+### 🔄 Loops
+- `for`, `while`, `do...while`
+- `break` vs. `continue`
+- **Nested loops** (e.g., working with matrices)
+- **Infinite loops** (edge cases & debugging)
 
-### Advanced JavaScript Concepts
-- Destructuring (object & array destructuring): introduced but not fully explored; will revisit as more practice is done.
+### ➕ Operators
+- **Arithmetic:**: `+`, `-`, `*`, `/`, `**`
+- **Modulus:** `%` (special case): returns remainder of a division.
+- **Assignment:** `=`, `+=`, `-=`, etc.
+- **Comparison:** `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`
+- **Logical:** `&&`, `||`, `!`
 
+### 🔹 Functions
+- Function declarations vs. function expressions
+- Arrow functions (=>)
+- Default parameters
+- Rest parameters (...args)
+- Higher-order functions (functions taking/returning functions)
+
+### 🛠 Advanced JavaScript Concepts
+- Destructuring: Array & object destructuring for cleaner syntax
+- Operators: Exploring increment/decrement (++, --)
+
+### 🌍 APIs (To Be Expanded)
+- Basic API fetching using `fetch()`
+- Handling responses (`.then()`, `.catch()`)
+- Parsing JSON (`response.json()`)
+
+## 📂 Project Structure
+```
+/JavaScript-Practice
+│── advanced.js
+│── loops.js
+│── variables.js
+│── operators.js
+│── objects.js
+│── arrays.js
+│── arrayObjects.js
+│── functions.js
+|── apis.js
+│── index.html
+│── README.md
+```
+
+- index.html – A simple page linking all JavaScript files for testing.
+- Each .js file contains focused practice on a particular JavaScript topic.
+
+## 🚀 Future Additions
+- More interactive HTML pages to test JavaScript concepts
+- Expanded API practice with real-world data fetching
+- More problem-solving exercises
